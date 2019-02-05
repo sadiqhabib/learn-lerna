@@ -1,0 +1,14 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.10.8',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js' }
+1 notice cli v3.10.8
+2 verbose rootPath d:\LocalNPM\zlog-packages\class-loader-v1
+3 verbose session 74904967e1bfdbc2
+4 verbose user-agent lerna/3.10.8/node@v8.12.0+x64 (win32)
+5 error Error: Command failed: git describe --always --long --dirty --first-parent
+5 error fatal: bad revision 'HEAD'
+5 error
+5 error     at makeError (d:\LocalNPM\zlog-packages\class-loader-v1\node_modules\execa\index.js:174:9)
+5 error     at Promise.all.then.arr (d:\LocalNPM\zlog-packages\class-loader-v1\node_modules\execa\index.js:278:16)
+5 error     at <anonymous>
